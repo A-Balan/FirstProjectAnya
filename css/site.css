@@ -1,8 +1,10 @@
-body {
+body, html {
     color: white !important;
+    height: 100%;
 }
 
 #hero {
+    min-height: 100vh;
     background: #141E30;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #243B55, #141E30);
